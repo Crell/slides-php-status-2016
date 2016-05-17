@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>PHP 7: The New New PHP</title>
+  <title>PHP 2016</title>
   <meta name="author" content="Larry Garfield">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -75,6 +75,25 @@
       width: 150px;
     }
 
+    dl.bullets {
+      text-align: left;
+      padding-left: 3em;
+    }
+    dl.bullets dt {
+      color: #9fc855; /* Palantir Green */
+      font-weight: bold;
+    }
+    dl.bullets dd {
+      text-indent: 50px;
+      background-repeat: no-repeat;
+    }
+    dl.bullets dd.done {
+      background-image: url('assets/checkmark.svg');
+      background-size: 40px 40px;
+      color: #33cc00;
+    }
+
+
   </style>
 
 </head>
@@ -88,8 +107,8 @@
   <div class="slides">
 
     <section>
-      <h1>PHP 7</h1>
-      <h2>The New New PHP</h2>
+      <h1>PHP 2016</h1>
+      <h2>A Quick, Informative, Totally Biased summary of the PHP ecosystem in 2016</h2>
       <p>
         <small>Presented by <a href="http://www.garfieldtech.com/">Larry Garfield</a> (<a href="http://twitter.com/Crell">@Crell</a>)</small>
       </p>
@@ -108,8 +127,74 @@
         </ul>
       </div>
     </section>
+    <section>
+      <section>
+        <h1>History</h1>
+        <h2>Over-simplified</h2>
+      </section>
+      <section>
+        <h2>History</h2>
+        <dl>
+          <dt class="fragment">PHP/FI 1, 2, circa 1995</dt>
+          <dd class="fragment">Random hacks by a random hacker</dd>
+          <dt class="fragment">PHP 3, circa 1998</dt>
+          <dd class="fragment">Well it's a backward language but it's a language</dd>
+          <dt class="fragment">PHP 4, circa 2000</dt>
+          <dd class="fragment">The start of actual applications</dd>
+          <dt class="fragment">PHP 5, circa <del>2004</del> 2007</dt>
+          <dd class="fragment">A worthwhile language, just took a while</dd>
+          <dt class="fragment">PHP <del>6</del> 5.3, circia 2009</dt>
+          <dd class="fragment">The framework era; the component era</dd>
+          <dt class="fragment">PHP 7, circa 2015</dt>
+          <dd class="fragment">We're living in the future(-ish)!</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>The long road to collaboration</h3>
+        <dl class="bullets">
+          <dt>Where do I find code?</dt>
+          <dd class="done">Packagist.org</dd>
+          <dt>How do I get code?</dt>
+          <dd class="done">Composer</dd>
+          <dt>How do I load your code?</dt>
+          <dd class="done">Autloading</dd>
+          <dt>How do I load everyone's code?</dt>
+          <dd class="done">PSR-0</dd>
+          <dt>Name clashes?</dt>
+          <dd class="done">Namespaces</dd>
+          <dt>How can I collaborate on code?</dt>
+          <dd class="done">GitHub</dd>
+          <dt>Can I exchange code?</dt>
+          <dd class="done">PHP-FIG standard interfaces</dd>
+        </dl>
+        <aside class="notes">
+          <ul>
+            <li>Still not everyone has caught on...</li>
+          </ul>
+        </aside>
+      </section>
+    </section>
 
     <div style="display:none">
+
+      History
+      - PHP 4, no sharing
+      - Many steps to get to sharing, not everyone has caught on.
+      - Use final bullet slide from PIE.
+
+      Current status:
+      - communities: General (legacy), General (Composer), Symfony, Drupal, Zend, Laravel, Wordpress, Internals, Other, Anonymous
+      - Slow progress toward integration. FIG.
+      - Versions: Supported
+      - Versions: Used (W3Techs)
+      - Note Chicken-egg, stats unreliable.
+      - PHP is now "compiled", from a distributor POV. (See blog post.)
+
+      Up and coming:
+      - Async
+      - Functional
+      - Persistent daemons (React PHP, Icicle, etc.)
+      - Hack: async/await.
 
     </div>
 
@@ -118,8 +203,6 @@
       <p>Director of Runtimes and Integrations <a href="http://www.platform.sh/">Platform.sh</a></p>
       <p>Continuous Deployment Cloud Hosting</p>
       <p>Stalk us at <a href="http://twitter.com/Platformsh">@PlatformSH</a></p>
-
-      <p style="margin-top: 2em"><small>Thanks to <a href="http://www.palantir.net/">Palantir.net</a> for helping develop these slides</small></p>
     </section>
 
   </div>
