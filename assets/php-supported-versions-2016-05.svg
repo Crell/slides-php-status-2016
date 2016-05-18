@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 970 198" width="970" height="198">
+	<style type="text/css">
+		
+			@import url(/fonts/Fira/fira.css);
+
+			text {
+				fill: #333;
+				font-family: "Fira Sans", "Source Sans Pro", Helvetica, Arial, sans-serif;
+				font-size: 16px;
+			}
+
+			g.eol rect,
+			.branches rect.eol {
+				fill: #f33;
+			}
+
+			g.eol text {
+				fill: white;
+			}
+
+			g.security rect,
+			.branches rect.security {
+				fill: #f93;
+			}
+
+			g.stable rect,
+			.branches rect.stable {
+				fill: #9c9;
+			}
+
+			.branch-labels text {
+				alignment-baseline: central;
+				text-anchor: middle;
+			}
+
+			.today line {
+				stroke: #f33;
+				stroke-dasharray: 7,7;
+				stroke-width: 3px;
+			}
+
+			.today text {
+				fill: #f33;
+				text-anchor: middle;
+			}
+
+			.years line {
+				stroke: black;
+			}
+
+			.years text {
+				text-anchor: middle;
+			}
+		
+	</style>
+
+	<!-- Branch labels -->
+	<g class="branch-labels">
+					<g class="eol">
+				<rect x="0" y="24" width="40" height="30"></rect>
+				<text x="20" y="39">
+					5.3				</text>
+			</g>
+					<g class="eol">
+				<rect x="0" y="54" width="40" height="30"></rect>
+				<text x="20" y="69">
+					5.4				</text>
+			</g>
+					<g class="security">
+				<rect x="0" y="84" width="40" height="30"></rect>
+				<text x="20" y="99">
+					5.5				</text>
+			</g>
+					<g class="stable">
+				<rect x="0" y="114" width="40" height="30"></rect>
+				<text x="20" y="129">
+					5.6				</text>
+			</g>
+					<g class="stable">
+				<rect x="0" y="144" width="40" height="30"></rect>
+				<text x="20" y="159">
+					7.0				</text>
+			</g>
+			</g>
+
+	<!-- Branch blocks -->
+	<g class="branches">
+								<rect class="stable" x="80" y="24" width="62.753258131639" height="30"></rect>
+			<rect class="security" x="142.75325813164" y="24" width="131.09188478808" height="30"></rect>
+								<rect class="stable" x="80" y="54" width="204.03022670025" height="30"></rect>
+			<rect class="security" x="284.03022670025" y="54" width="116.30708575183" height="30"></rect>
+								<rect class="stable" x="135.85368524806" y="84" width="246.41331727084" height="30"></rect>
+			<rect class="security" x="382.26700251889" y="84" width="120.24969882817" height="30"></rect>
+								<rect class="stable" x="278.44485817545" y="114" width="281.23973277845" height="30"></rect>
+			<rect class="security" x="559.68459095389" y="114" width="239.84229547695" height="30"></rect>
+								<rect class="stable" x="430.23546161428" y="144" width="240.17084656664" height="30"></rect>
+			<rect class="security" x="670.40630818092" y="144" width="119.92114773847" height="30"></rect>
+			</g>
+
+	<!-- Year lines -->
+	<g class="years">
+					<line x1="80" y1="24" x2="80" y2="174"></line>
+			<text x="80" y="19.2">
+				1 Jan 2013			</text>
+					<line x1="199.92114773847" y1="24" x2="199.92114773847" y2="174"></line>
+			<text x="199.92114773847" y="19.2">
+				1 Jan 2014			</text>
+					<line x1="319.84229547695" y1="24" x2="319.84229547695" y2="174"></line>
+			<text x="319.84229547695" y="19.2">
+				1 Jan 2015			</text>
+					<line x1="439.76344321542" y1="24" x2="439.76344321542" y2="174"></line>
+			<text x="439.76344321542" y="19.2">
+				1 Jan 2016			</text>
+					<line x1="560.01314204359" y1="24" x2="560.01314204359" y2="174"></line>
+			<text x="560.01314204359" y="19.2">
+				1 Jan 2017			</text>
+					<line x1="679.93428978206" y1="24" x2="679.93428978206" y2="174"></line>
+			<text x="679.93428978206" y="19.2">
+				1 Jan 2018			</text>
+					<line x1="799.85543752053" y1="24" x2="799.85543752053" y2="174"></line>
+			<text x="799.85543752053" y="19.2">
+				1 Jan 2019			</text>
+					<line x1="919.77658525901" y1="24" x2="919.77658525901" y2="174"></line>
+			<text x="919.77658525901" y="19.2">
+				1 Jan 2020			</text>
+			</g>
+
+	<!-- Today -->
+	<g class="today">
+				<line x1="485.10349359325" y1="24" x2="485.10349359325" y2="174"></line>
+		<text x="485.10349359325" y="193.2">
+			Today: 18 May 2016		</text>
+	</g>
+</svg>
