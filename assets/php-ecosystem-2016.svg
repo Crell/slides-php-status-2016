@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3348" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="170.46mm" width="208.2mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" viewBox="0 0 737.71431 603.99993" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3353">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(-2.3571 -438.86)">
+  <ellipse id="path3358" opacity=".5" rx="368.37" ry="110.73" stroke="#000" cy="931.65" cx="371.21" stroke-width=".97231" fill="#0f0"/>
+  <g>
+   <text id="text3360" style="word-spacing:0px;letter-spacing:0px" font-family="Sans" xml:space="preserve" font-size="40px" stroke="#000000" y="1003.9337" x="262.57144" stroke-width="1px" line-height="125%" fill="#000000"><tspan id="tspan5664" x="262.57144" y="1003.9337">Legacy PHP</tspan></text>
+   <ellipse id="path3364" opacity=".506" rx="151.33" ry="113.76" stroke="#000" cy="803.93" cx="586.29" stroke-width=".90778" fill="#00f"/>
+   <text id="text3366" style="word-spacing:0px;letter-spacing:0px" font-family="Sans" xml:space="preserve" font-size="40px" stroke="#000000" y="802.07654" x="527.14288" stroke-width="1px" line-height="125%" fill="#000000"><tspan id="tspan3368" x="527.14288" y="802.07654">Drupal</tspan></text>
+  </g>
+  <ellipse id="path3370" opacity=".5" rx="155.32" ry="185.68" stroke="#000" cy="776.01" cx="366.29" stroke-width=".93219" fill="#ff0"/>
+  <g>
+   <g>
+    <text id="text3372" style="word-spacing:0px;letter-spacing:0px" font-family="Sans" xml:space="preserve" transform="scale(.93366 1.0711)" stroke="#000000" font-size="32.74px" y="694.73022" x="284.75867" stroke-width=".81849px" line-height="125%" fill="#000000"><tspan id="tspan5656" y="694.73022" x="284.75867" stroke-width=".81849px">General PHP</tspan></text>
+    <ellipse id="path5644" opacity=".5" rx="156.87" ry="56.87" stroke="#000" cy="675.36" cx="564" stroke-width="1.2594" fill="#0ff"/>
+    <text id="text5646" style="word-spacing:0px;letter-spacing:0px" font-family="Sans" xml:space="preserve" font-size="40px" stroke="#000000" y="682.36218" x="513" stroke-width="1px" line-height="125%" fill="#000000"><tspan id="tspan5648" x="513" y="682.36218">Symfony</tspan></text>
+    <ellipse id="path5650" opacity=".5" rx="88.988" ry="49.988" stroke="#000" cy="614.36" cx="269" stroke-width="1.0231" fill="#008000"/>
+   </g>
+   <text id="text5652" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" y="618.36218" x="230" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan5654" x="230" y="618.36218">ZF</tspan></text>
+   <ellipse id="path5658" opacity=".5" rx="115" ry="50" stroke="#000" cy="594.36" cx="508" fill="#f0f"/>
+   <text id="text5660" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" y="595.36218" x="440" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan5662" x="440" y="595.36218">Laravel</tspan></text>
+   <ellipse id="path5666" opacity=".5" rx="111.08" ry="143.58" stroke="#000" cy="802.36" cx="149.5" stroke-width="1.8324" fill="#800080"/>
+   <text id="text5668" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" y="777.36218" x="41" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan5670" x="41" y="777.36218">Wordpress</tspan></text>
+   <ellipse id="path5674" opacity=".5" rx="290" ry="50" stroke="#000" cy="489.36" cx="314" fill="#f00"/>
+   <text id="text5676" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" y="500.36221" x="191" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan5678" x="191" y="500.36221">PHP Internals</tspan></text>
+  </g>
+ </g>
+</svg>

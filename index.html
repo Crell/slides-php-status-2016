@@ -212,6 +212,15 @@
       <section>
         <h4>Current status: Learning to get along</h4>
         <img src="assets/php-ecosystem-2016.svg" alt="The PHP ecosystems in 2016" />
+        <aside class="notes">
+          <ul>
+            <li>Most people start in legacy, even today. PHP-General</li>
+            <li>Symfony2 triggered modern era</li>
+            <li>Crell mostly in Drupal/Symfony/General</li>
+            <li>Laravel new insular community</li>
+            <li>Wordpress modernizing internally, still not playing well with others</li>
+          </ul>
+        </aside>
       </section>
       <section>
         <h2>Relevant to us</h2>
@@ -230,25 +239,30 @@
           </ul>
         </aside>
       </section>
+      <section>
+        <h3>PHP is compiled</h3>
+        <p class="bigtext fragment">For production</p>
+        <p class="fragment">Not for dev</p>
+        <p class="fragment"><a href="http://www.garfieldtech.com/blog/composer-distribution-mental-model">http://www.garfieldtech.com/blog/composer-distribution-mental-model</a></p>
+      </section>
+      <section>
+        <h2>What to expect</h2>
+        <p class="bigtext fragment">Warning: Rampant speculation follows</p>
+        <ul>
+          <li class="fragment">Persistent daemons</li>
+          <li class="fragment">Long-running processes</li>
+          <li class="fragment">event loop extensions (libev)</li>
+          <li class="fragment">Non-CGI PHP</li>
+        </ul>
+        <aside class="notes">
+          <ul>
+            <li>Async: React PHP, Icicle.io</li>
+            <li>HTTP2, websockets</li>
+            <li>Functional-style</li>
+          </ul>
+        </aside>
+      </section>
     </section>
-
-    <div style="display:none">
-
-      Current status:
-      - communities: General (legacy), General (Composer), Symfony, Drupal, Zend, Laravel, Wordpress, Internals, Other, Anonymous
-      - Slow progress toward integration. FIG.
-      - Versions: Supported
-      - Versions: Used (W3Techs)
-      - Note Chicken-egg, stats unreliable.
-      - PHP is now "compiled", from a distributor POV. (See blog post.)
-
-      Up and coming:
-      - Async
-      - Functional
-      - Persistent daemons (React PHP, Icicle, etc.)
-      - Hack: async/await.
-
-    </div>
 
     <section id="final">
       <h2>Larry Garfield</h2>
