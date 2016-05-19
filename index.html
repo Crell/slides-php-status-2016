@@ -93,7 +93,22 @@
       color: #33cc00;
     }
 
-
+    ul.gophp5-logo-list img {
+      max-width: 180px;
+      max-height: 180px;
+      border: 0px;
+      background: transparent;
+    }
+    ul.gophp5-logo-list li {
+      list-style: none;
+      display: block;
+      width: 180px;
+      float: left;
+      margin: 10px;
+    }
+    ul.gophp5-logo-list li:nth-child(4n) {
+      clear: left;
+    }
   </style>
 
 </head>
@@ -120,7 +135,7 @@
       </div>
       <div>
         <ul style="text-wrap: none">
-          <li>Director of Runtimes and Integrations, <a href="http://www.platform.sh/">Platform.sh</a></li>
+          <li>D.R.I.E.S., <a href="http://www.platform.sh/">Platform.sh</a></li>
           <li style="margin-top: 1em;">Drupal 8 Web Services Lead</li>
           <li style="margin-top: 1em;">Drupal Representative, <a href="http://www.php-fig.org/">PHP-FIG</a></li>
           <li style="margin-top: 1em;"><code>implements Huggable</code></li>
@@ -129,25 +144,90 @@
     </section>
     <section>
       <section>
-        <h1>History</h1>
+        <h1>PHP History</h1>
         <h2>Over-simplified</h2>
       </section>
       <section>
         <h2>History</h2>
         <dl>
-          <dt class="fragment">PHP/FI 1, 2, circa 1995</dt>
+          <dt class="fragment">PHP/FI 1, 2, 1994</dt>
           <dd class="fragment">Random hacks by a random hacker</dd>
-          <dt class="fragment">PHP 3, circa 1998</dt>
+          <dt class="fragment">PHP 3, 1998</dt>
           <dd class="fragment">Well it's a backward language but it's a language</dd>
-          <dt class="fragment">PHP 4, circa 2000</dt>
+          <dt class="fragment">PHP 4, 2000</dt>
           <dd class="fragment">The start of actual applications</dd>
-          <dt class="fragment">PHP 5, circa <del>2004</del> 2007</dt>
+          <dt class="fragment">PHP 5, <del>2004</del> 2007</dt>
           <dd class="fragment">A worthwhile language, just took a while</dd>
-          <dt class="fragment">PHP <del>6</del> 5.3, circia 2009</dt>
+          <dt class="fragment">PHP <del>6</del> 5.3, 2009</dt>
           <dd class="fragment">The PHP Renaissance</dd>
-          <dt class="fragment">PHP 7, circa 2015</dt>
+          <dt class="fragment">PHP 7, 2015</dt>
           <dd class="fragment">We're living in the future(-ish)!</dd>
         </dl>
+      </section>
+      <section>
+        <h3>5 July 2007</h3>
+        <a href="http://www.garfieldtech.com/blog/go-php-5-go"><img src="assets/gophp5_logo.png" style="border: 0;" alt="GoPHP5 asssassinated a programming language" /></a>
+      </section>
+      <section>
+        <h3><img src="assets/gophp5_logo.png" style="border: 0; height: 1.3em;" alt="GoPHP5" /></h3>
+        <ul class="gophp5-logo-list">
+          <li><img src="assets/druplicon.svg" alt="Drupal" /></li>
+          <li><img src="assets/symfony-logo-vertical.svg" alt="Symfony" /></li>
+          <li><img src="assets/typo3-orange.svg" alt="Typo3" /></li>
+          <li><img src="assets/phpmyadmin-logo.png" alt="phpMyAdmin" /></li>
+          <li><img src="assets/propel.gif" alt="Propel" /></li>
+          <li><img src="assets/doctrineorm.jpg" alt="Doctrine" /></li>
+        </ul>
+        <p class="fragment" ><q>We've decided that we will all be first.</q></p>
+        <aside class="notes">
+          <ul>
+            <li>Dirty little secret: Symfony, Propel, and Doctrine already PHP 5.</li>
+          </ul>
+        </aside>
+      </section>
+      <section>
+        <h3>HHVM, 2010</h3>
+        <p><img src="assets/hacklang-logo.svg" width="25%" alt="Hack, Facebook's PHP" /></p>
+        <ul>
+          <li class="fragment">Facebook's PHP fork</li>
+          <li class="fragment">HACKlang</li>
+          <li class="fragment">JIT compiled</li>
+        </ul>
+        <aside class="notes">
+          <ul>
+            <li>Runs (almost) all PHP code</li>
+            <li>HACK: PHP language extensions, some folding back into PHP over time</li>
+            <li>Very different runtime model</li>
+            <li>Much faster than PHP 5</li>
+          </ul>
+        </aside>
+      </section>
+      <section>
+        <img src="assets/benchmarks/drupal.png" width="100%" data-credit="http://talks.php.net/fluent15" />
+        <p>Credit: <a href="http://talks.php.net/fluent15">Rasmus Lerdorf</a></p>
+      </section>
+      <section>
+        <img src="assets/benchmarks/wordpress.png" width="100%" data-credit="http://talks.php.net/fluent15" />
+        <p>Credit: <a href="http://talks.php.net/fluent15">Rasmus Lerdorf</a></p>
+        <aside class="notes">
+          <ul>
+            <li>Note, Drupal 8 still way better than Wordpress. :-)</li>
+          </ul>
+        </aside>
+      </section>
+      <section>
+        <img src="assets/benchmarks/phpbb.png" width="100%" data-credit="http://talks.php.net/fluent15" />
+        <p>Credit: <a href="http://talks.php.net/fluent15">Rasmus Lerdorf</a></p>
+      </section>
+      <section>
+        <img src="assets/benchmarks/mediawiki.png" width="100%" data-credit="http://talks.php.net/fluent15" />
+        <p>Credit: <a href="http://talks.php.net/fluent15">Rasmus Lerdorf</a></p>
+        <aside class="notes">
+          <ul>
+            <li>Sometimes PHP 7 faster, sometimes HHVM faster</li>
+            <li>Both blow PHP 5.6 out of the water.</li>
+          </ul>
+        </aside>
       </section>
       <section>
         <h3>The long road to collaboration</h3>
@@ -177,6 +257,17 @@
         <blockquote>PHP can always be counted on to do the right thing, after it has exhausted all other options.</blockquote>
         <p>&mdash;Winston Churchill</p>
       </section>
+      <section>
+        <h2>Pragmatic PHP</h2>
+        <blockquote>PHP developers will take whatever approach gets them to the bar sooner</blockquote>
+        <p>&mdash;Loosely summarized from Eli White and Cal Evans</p>
+        <aside class="notes">
+          <ul>
+            <li>Large self-taught population</li>
+            <li>CS grads are a minority? Def in some communities</li>
+          </ul>
+        </aside>
+      </section>
     </section>
     <section>
       <section>
@@ -187,12 +278,19 @@
         <img src="assets/php-supported-versions-2016-05.svg" alt="PHP 5.6 and 7.0 are the only supported versions." />
         <p><address>Source: <a href="http://php.net/supported-versions.php">http://php.net/supported-versions.php</a></address></p>
         <p class="fragment">Most current versions of PHP applications require PHP 5.5 or later</p>
-        <p class="fragment">(Wordpress requires 5.2, because they're <del>lame</del> conservative)</p>
+        <p class="fragment">(Wordpress requires 5.2+, because they're <del>lame</del> conservative)</p>
       </section>
       <section>
         <h3>Found on servers dead</h3>
         <img src="assets/php-version-usage-2016-05.png" alt="PHP 5.3 is still the most widely used version." />
         <p><address>Source: <a href="http://w3techs.com/technologies/details/pl-php/all/all">http://w3techs.com/technologies/details/pl-php/all/all</a></address></p>
+        <aside class="notes">
+          <ul>
+            <li>Chicken-egg problem</li>
+            <li>Stats misleading; many servers just don't upgrade, but apps are compatible</li>
+            <li>5.4->5.6 very reliable. ->7 mostly reliable</li>
+          </ul>
+        </aside>
       </section>
       <section>
         <h3>PHP still rules the server</h3>
@@ -210,6 +308,14 @@
     </section>
     <section>
       <section>
+        <h2>The PHP Communit<del>y</del>ies</h2>
+        <aside class="notes">
+          <ul>
+            <li>Not a single community; several overlapping</li>
+          </ul>
+        </aside>
+      </section>
+      <section>
         <h4>Current status: Learning to get along</h4>
         <img src="assets/php-ecosystem-2016.svg" alt="The PHP ecosystems in 2016" />
         <aside class="notes">
@@ -223,14 +329,16 @@
         </aside>
       </section>
       <section>
-        <h2>Relevant to us</h2>
+        <h3>PHP is consistently inconsistent</h3>
         <ul>
           <li class="fragment">Every system has its own way of handling environment credentials</li>
-          <li class="fragment">Drupal, Laravel have own hosting ecosystems</li>
-          <li class="fragment">Any serious new project uses Composer (but old ones matter)</li>
-          <li class="fragment">Ignore Wordpress at your own peril; it is used for large sites</li>
-          <li class="fragment">PHP world usage of VMs/Containers is very inconsistent</li>
+          <li class="fragment">Drupal, Laravel, WP have own hosting ecosystems</li>
+          <li class="fragment">Use of VMs/Containers very inconsistent</li>
+          <li class="fragment">Production standards vary</li>
+          <li class="fragment">Composer-for-production still developing field</li>
+          <li class="fragment">Production MUST differ from dev (xdebug, composer)</li>
         </ul>
+        <p class="fragment">And it likes it that way!</p>
         <aside class="notes">
           <ul>
             <li>Would like to see FIG-based collaboration for solving environment creds</li>
@@ -238,6 +346,20 @@
             <li>WP has a bad rap, but gets used for many high-end sites. Can we get good at it?</li>
           </ul>
         </aside>
+      </section>
+      <section>
+        <h3>PHP code is mostly centralized</h3>
+        <dl>
+          <dt class="fragment">http://Packagist.org</dt>
+          <dd class="fragment">Almost everything, default</dd>
+          <dt class="fragment">http://repo.magento.com</dt>
+          <dd class="fragment">Magento packages, requires auth</dd>
+          <dt class="fragment">https://packagist.drupal-composer.org/</dt>
+          <dd class="fragment">Temporary Drupal front-end</dd>
+          <dt class="fragment"></dt>
+          <dd class="fragment">Alpha Drupal front-end (different versions)</dd>
+        </dl>
+        <p class="fragment">Composer is local, not system-level</p>
       </section>
       <section>
         <h3>PHP is compiled</h3>
